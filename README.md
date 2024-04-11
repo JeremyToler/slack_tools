@@ -15,11 +15,11 @@ Update the following line to include all web sites you want to test.
 
 You will need to make a slack bot:
 
-   1. Go to https://api.slack.com/apps/
-   2. Click Create New App and follow the wizard
-   3. Go to your app and go to ‘OAuth & Permissions’
-   4. Under Scopes give the bot the following permissions chat:write, chat:write.customize, chat:write.public
-   5. Update token='YOUR-AUTH-TOKEN' in the script
-   6. Add the bot to your slack channel. 
+- Go to https://api.slack.com/apps/
+- Click Create New App and follow the wizard
+- Go to your app and go to ‘OAuth & Permissions’
+- Under Scopes give the bot the following permissions chat:write, chat:write.customize, chat:write.public
+- Update token='YOUR-AUTH-TOKEN' in the script
+- Add the bot to your slack channel. 
 
 You can customize further by changing the username, icon_emoji, and channel under ```client.chat_postMessage```
