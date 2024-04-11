@@ -6,6 +6,13 @@ example use case:
 If the log returns any output other than the out of capacity error I will get a slack notification. 
 In my case the script generating the log file runs every two minutes, so I can add the above line to my crontab and run it every 10 min and no longer need to log into the server to see if there is finally capacity. 
 
+# Site Snitch
+Update the following line to include all web sites you want to test. 
+```site_list = ['studiopeaches.com', 'httpbin.org/status/400']```
+
+
+# How to use these scripts
+
 You will need to make a slack bot:
 
    1. Go to https://api.slack.com/apps/
